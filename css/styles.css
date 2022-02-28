@@ -1,24 +1,21 @@
 * {
   box-sizing: border-box;
 }
-
-
-
-.big-heading{
-  font-size: 2.5rem;
-  font-weight: 400;
-  line-height: 1.5;
+body{
+  border: 15px solid #F3B660;
 }
 
+
 /* Containers */
-.container-fluid{
+.container-fluid {
   padding: 1% 5%;
-  background-color: #753742;
+
 }
 
 /* Sections */
-.top-page{
-
+.top-page {
+background-color: #753742;
+background-image: url("images/tay2.jpg");
 }
 
 
@@ -27,12 +24,66 @@
   padding: 0 18px;
 }
 
-/* Title image */
 
-.row {
-  background-image: url("images/tay1.png");
-  height: 50vh;
-  background-repeat: repeat;
 
+/* About Me */
+.about-me {
+  padding: 3% 10% 3%;
+  text-align: left;
+}
+
+.title-image {
+  margin-top: 15%;
+  margin-left: 20%;
+}
+
+/* Education */
+
+.border{
+  margin: 10px;
+}
+
+.icon{
+color:#ef8172;
+margin-bottom: 10%;
+}
+
+h5{
+  text-align: center;
+  margin-top: 5%;
+}
+
+h6{
+  color: gray;
+  text-align: center;
+}
+
+
+/* Skills Section */
+
+.color-section {
+  background-color: #ef8172;
+  margin: 5% 5%;
+
+}
+
+.skills-image {
+  width: 10%;
+  margin: 20px;
+
+}
+
+.slider-header{
+  text-align: center;
+  color: white;
+}
+
+/* My Work */
+
+
+
+/* Footer */
+footer {
+  background-color: #ef8172
 
 }
