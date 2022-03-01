@@ -64,7 +64,11 @@
       <div class="row">
 
         <div class="col-lg-5 title-img-div">
-          <img class="image-fluid" src="images/tay.png" alt="rounded icon">
+          <picture>
+            <source srcset="images/tay.png" type="image/svg+xml">
+            <img src="images/tay.png" class="img-fluid " alt="rounded profile pic">
+          </picture>
+
         </div>
 
         <div class="col-lg-7 about-me">
@@ -73,9 +77,9 @@
             at suscipit lectus, vel rhoncus tellus.
             Phasellus justo orci, sollicitudin eu velit eget, feugiat dapibus purus</p>
           <div class="row">
-            <img class="image-fluid mini" src="images/mini.png" alt="Tay with plants">
-            <img class="image-fluid mini" src="images/mini1.png" alt="Tay with plants">
-            <img class="image-fluid mini" src="images/mini2.png" alt="Tay with plants">
+            <img class="image-fluid mini" src="images/mini.png" alt="Traveling photo">
+            <img class="image-fluid mini" src="images/mini1.png" alt="Plant photo">
+            <img class="image-fluid mini" src="images/mini2.png" alt="Modeling photo">
 
           </div>
         </div>
@@ -249,24 +253,33 @@
   <!--Contact Form-->
 
   <form class="contact-me" action="/action_page.php">
-  <fieldset>
-    <legend>CONTACT ME</legend>
+    <fieldset>
+      <legend>Contact Me</legend>
 
-    <input type="text" id="fname" name="fname" placeholder="Name" required><br><br>
+      <input class="form" type="text" id="fname" name="fname" placeholder="Name" required><br><br>
 
-    <input type="email" id="email" name="email" placeholder="Email" required><br><br>
+      <input class="form" type="email" id="email" name="email" placeholder="Email" required><br><br>
 
-    <input type="text" id="subject" name="subject" placeholder="Subject" required><br><br>
-    <textarea name="subject" rows="8" cols="40" placeholder="Write your message ..."></textarea><br><br>
+      <input class="form" type="text" id="subject" name="subject" placeholder="Subject" required><br><br>
+      <textarea name="subject" rows="8" cols="40" placeholder="Write your message ..."></textarea><br><br>
 
-    <input type="submit" value="Submit">
-  </fieldset>
-</form>
+      <input class="button" type="submit" value="SUBMIT">
+    </fieldset>
+  </form>
 
 
   <!-- Footer-->
 
+  <footer class="footer-section" id="footer">
+    <div class="container-fluid">
 
+      <i class="fa-solid fa-browser"></i>
+      <i class="f-icon fab fa-facebook-f"></i>
+      <i class="f-icon fab fa-instagram"></i>
+      <i class="f-icon fas fa-envelope"></i>
+      <p>© Copyright 2022 Taylor Jones</p>
+    </div>
+  </footer>
 
 
 
