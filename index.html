@@ -64,7 +64,7 @@
       <div class="row">
 
         <div class="col-lg-5 title-img-div">
-          <img class="title-image" src="images/tay.png" alt="rounded icon">
+          <img class="image-fluid" src="images/tay.png" alt="rounded icon">
         </div>
 
         <div class="col-lg-7 about-me">
@@ -72,6 +72,12 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu odio eleifend ipsum venenatis consectetur vestibulum eu risus. Nam interdum tincidunt auctor. Quisque tortor erat, lobortis ac consectetur vitae, volutpat quis elit. Nullam
             at suscipit lectus, vel rhoncus tellus.
             Phasellus justo orci, sollicitudin eu velit eget, feugiat dapibus purus</p>
+          <div class="row">
+            <img class="image-fluid mini" src="images/mini.png" alt="Tay with plants">
+            <img class="image-fluid mini" src="images/mini1.png" alt="Tay with plants">
+            <img class="image-fluid mini" src="images/mini2.png" alt="Tay with plants">
+
+          </div>
         </div>
 
       </div>
@@ -99,7 +105,7 @@
 
         <div class="col border border-warning border-2 rounded-2">
           <h5>Grow with Google | 2021</h5>
-          <h6>UX Designer Course</h6>
+          <h6>UX/UI Designer Course</h6>
           <div style="text-align:center;">
             <i class="icon fa-brands fa-google fa-xl"></i>
           </div>
@@ -218,11 +224,6 @@
         </div>
         <div class="carousel-item container-fluid">
           <div class="d-flex justify-content-center">
-            <img class="work-image" src="images/tn3.png" alt="css">
-          </div>
-        </div>
-        <div class="carousel-item container-fluid">
-          <div class="d-flex justify-content-center">
             <img class="work-image" src="images/tn4.png" alt="css">
           </div>
         </div>
@@ -247,7 +248,20 @@
 
   <!--Contact Form-->
 
-    
+  <form class="contact-me" action="/action_page.php">
+  <fieldset>
+    <legend>CONTACT ME</legend>
+
+    <input type="text" id="fname" name="fname" placeholder="Name" required><br><br>
+
+    <input type="email" id="email" name="email" placeholder="Email" required><br><br>
+
+    <input type="text" id="subject" name="subject" placeholder="Subject" required><br><br>
+    <textarea name="subject" rows="8" cols="40" placeholder="Write your message ..."></textarea><br><br>
+
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>
 
 
   <!-- Footer-->

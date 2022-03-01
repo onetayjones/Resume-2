@@ -9,13 +9,13 @@ body{
 /* Containers */
 .container-fluid {
   padding: 1% 5%;
-
 }
+
 
 /* Sections */
 .top-page {
 background-color: #753742;
-background: 
+
 }
 
 
@@ -32,9 +32,20 @@ background:
   text-align: left;
 }
 
-.title-image {
-  margin-top: 15%;
-  margin-left: 20%;
+.image-fluid {
+  margin-top: 5%;
+  margin-left: 3%;
+  width: 75%;
+}
+
+.title-img-div{
+  padding-top: 7%;
+  padding-left: 10%;
+
+}
+
+.mini {
+  width: 25%;
 }
 
 /* Education */
@@ -86,6 +97,15 @@ h6{
   width: 50%;
 }
 
+/* Contact Me */
+
+.contact-me{
+  text-align: center;
+}
+ input{
+   width: 325px;
+ }
+
 
 
 /* Footer */
@@ -93,3 +113,29 @@ footer {
   background-color: #ef8172
 
 }
+
+/* Media Queries */
+
+@media only screen and (min-width: 600px) {
+
+}
+
+@media only screen and (min-width: 768px){
+
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
+
+
+/* <picture>
+  <source srcset="img_small.jpg" media="(max-width: 600px)">
+  <source srcset="img_medium.jpg" media="(max-width: 1500px)">
+  <source srcset="img_large.jpg">
+  <img src="img.jpg" alt="Image">
+</picture> */
