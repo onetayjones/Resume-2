@@ -15,7 +15,7 @@ body{
 /* Sections */
 .top-page {
 background-color: #753742;
-background-image: url("images/tay2.jpg");
+background: 
 }
 
 
@@ -63,7 +63,9 @@ h6{
 
 .color-section {
   background-color: #ef8172;
-  margin: 5% 5%;
+  margin: 7% 5%;
+  padding: 2% 1% 2% 1%;
+
 
 }
 
@@ -79,6 +81,10 @@ h6{
 }
 
 /* My Work */
+
+.work-image {
+  width: 50%;
+}
 
 
 
