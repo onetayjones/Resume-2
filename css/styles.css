@@ -89,11 +89,6 @@ h6 {
   text-align: center;
 }
 
-.form {
-  width: 325px;
-  padding: 5px;
-}
-
 .button {
   margin-bottom: 3%;
   background-color: #ef8172;
@@ -101,21 +96,27 @@ h6 {
   width: 150px;
 }
 
+.button:hover {
+  background-color: #753742;
+  color: white;
+}
+
 legend {
   margin-bottom: 3%;
 }
-
-
 
 /* Footer */
 .footer-section {
   background-color: #753742;
   text-align: center;
   color: white;
-
- 
 }
 
+.f-icon {
+  padding: 0 18px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
 
 /* Media Queries */
 @media only screen and (min-width: 600px) {}
