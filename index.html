@@ -21,11 +21,12 @@
 <body>
 
   <section class="top-page">
-    <div class="container-fluid">
+
 
       <!-- Nav Bar -->
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="#"> <img src="images/taylor2.png" alt="icon"> </a>
+      <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="https://uploads-ssl.webflow.com/6112904098f260bf048dcc00/612b70a4af9ad954da8357a3_TaylorD._Jones_Resume.PDF" target="_blank"> <img src="images/taylor2.png" alt="icon"> </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -41,13 +42,13 @@
               <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Experience</a>
+              <a class="nav-link" href="#experience">Experience</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">My Work</a>
+              <a class="nav-link" href="#work">My Work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact Me</a>
+              <a class="nav-link" href="#contact">Contact Me</a>
             </li>
           </ul>
         </div>
@@ -57,16 +58,16 @@
 
 
   <!-- About Me -->
-  <section>
+  <section class="about">
     <div class="container-fluid">
 
 
       <div class="row">
 
-        <div class="col-lg-5 title-img-div">
+        <div class="col-lg-5 title-img-div rounded-2">
           <picture>
-            <source srcset="images/tay.png" type="image/svg+xml">
-            <img src="images/tay.png" class="img-fluid " alt="rounded profile pic">
+            <source srcset="images/g1.png" type="image/svg+xml">
+            <img src="images/g1.png" class="img-fluid profile" alt="rounded profile pic">
           </picture>
 
         </div>
@@ -76,10 +77,15 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu odio eleifend ipsum venenatis consectetur vestibulum eu risus. Nam interdum tincidunt auctor. Quisque tortor erat, lobortis ac consectetur vitae, volutpat quis elit. Nullam
             at suscipit lectus, vel rhoncus tellus.
             Phasellus justo orci, sollicitudin eu velit eget, feugiat dapibus purus</p>
-          <div class="row">
-            <img class="image-fluid mini" src="images/mini.png" alt="Traveling photo">
-            <img class="image-fluid mini" src="images/mini1.png" alt="Plant photo">
-            <img class="image-fluid mini" src="images/mini2.png" alt="Modeling photo">
+
+
+
+            <div class="row-1">
+
+              <img class="image-fluid mini" src="images/mini.png" alt="Traveling photo">
+              <img class="image-fluid mini" src="images/mini1.png" alt="Plant photo">
+              <img class="image-fluid mini" src="images/mini2.png" alt="Modeling photo">
+
 
           </div>
         </div>
@@ -96,19 +102,19 @@
 
 
       <div class="row align-items-center">
-        <h2>Education</h2>
-        <div class="col border border-warning border-2 rounded-2">
-          <h5>Indiana University | 2012</h5>
+        <h2 class="center">Education</h2>
+        <div class="col col-xs-12 border border-warning border-2 rounded-2">
+          <h5><a class="e-hover" href="https://www.indiana.edu/" target="_blank"> Indiana University </a> | 2012</h5>
           <h6>B.A. in Communications</h6>
           <div style="text-align:center;">
-            <i class="icon fa-solid fa-graduation-cap fa-xl"></i>
+            <i class="icon fa-solid fa-graduation-cap  fa-xl"></i>
           </div>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu odio eleifend ipsum venenatis consectetur vestibulum eu risus.
             Phasellus justo orci, sollicitudin eu velit eget, feugiat dapibus purus. </p>
         </div>
 
-        <div class="col border border-warning border-2 rounded-2">
-          <h5>Grow with Google | 2021</h5>
+        <div class="col col-xs-12  border border-warning border-2 rounded-2">
+          <h5><a class="e-hover" href="https://www.credly.com/badges/52d36a40-18a7-42e4-9bda-d9165a6b86ff" target="_blank"> Grow with Google </a> | 2021</h5>
           <h6>UX/UI Designer Course</h6>
           <div style="text-align:center;">
             <i class="icon fa-brands fa-google fa-xl"></i>
@@ -117,8 +123,8 @@
             Phasellus justo orci, sollicitudin eu velit eget, feugiat dapibus purus</p>
         </div>
 
-        <div class="col border border-warning border-2 rounded-2">
-          <h5>CodeSpace | 2022</h5>
+        <div class="col col-xs-12 border border-warning border-2 rounded-2">
+          <h5><a class="e-hover" href="https://www.codespace.co.za/" target="_blank"> CodeSpace </a> | 2022</h5>
           <h6>Software Engineering Course</h6>
           <div style="text-align:center;">
             <i class="icon fa-solid fa-laptop fa-xl"></i>
@@ -173,13 +179,13 @@
 
   <!-- Experience -->
 
-  <section class="education">
+  <section class="experience" id="experience">
     <div class="container-fluid">
 
 
       <div class="row align-items-center">
-        <h2>Experience</h2>
-        <div class="col border border-warning border-2 rounded-2">
+        <h2 class="center">Experience</h2>
+        <div class="col col-xs-12 border border-warning border-2 rounded-2">
           <h5>Freelance Designer | 2021 </h5>
           <div style="text-align:center;">
             <i class="icon fa-solid fa-laptop fa-xl"></i>
@@ -188,7 +194,7 @@
             Phasellus justo orci, sollicitudin eu velit eget, feugiat dapibus purus. </p>
         </div>
 
-        <div class="col border border-warning border-2 rounded-2">
+        <div class="col col-xs-12  border border-warning border-2 rounded-2">
           <h5>E-learning Developer | 2021</h5>
           <div style="text-align:center;">
             <i class="icon fa-solid fa-chalkboard fa-xl"></i>
@@ -197,7 +203,7 @@
             Phasellus justo orci, sollicitudin eu velit eget, feugiat dapibus purus</p>
         </div>
 
-        <div class="col border border-warning border-2 rounded-2">
+        <div class="col col-xs-12 border border-warning border-2 rounded-2">
           <h5>Google Apprenticeship | 2021</h5>
           <div style="text-align:center;">
             <i class="icon fa-brands fa-google fa-xl"></i>
@@ -252,9 +258,9 @@
 
   <!--Contact Form-->
 
-  <form class="contact-me" action="/action_page.php">
+  <form class="contact-me" action="/action_page.php" id="contact">
     <fieldset>
-      <legend>Contact Me</legend>
+      <legend><h2>Contact Me</h2></legend>
 
       <input class="col border border-warning border-2 rounded-2 my-0 p-2 w-25" type="text" id="fname" name="fname" placeholder="Name" required><br><br>
 
@@ -273,9 +279,9 @@
   <footer class="footer-section" id="footer">
     <div class="container-fluid">
 
-      <i class="f-icon fa-solid fa-envelope fa-xl"></i>
-      <i class="f-icon fa-brands fa-facebook-f fa-xl"></i>
-      <i class="f-icon fa-brands fa-instagram fa-xl"></i>
+      <a href="https://mail.google.com/" target="_blank"><i class="f-icon fa-solid fa-envelope fa-xl"></i></a>
+      <a href="https://www.facebook.com/" target="_blank"><i class="f-icon fa-brands fa-facebook-f fa-xl"></i></a>
+      <a href="https://www.linkedin.com/in/taylor-d-jones-1181a633/" target="_blank"><i class="f-icon fa-brands fa-linkedin fa-xl"></i></a>
       <p>© Copyright 2022 Taylor Jones</p>
     </div>
   </footer>

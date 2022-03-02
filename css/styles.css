@@ -6,6 +6,10 @@ body {
   border: 15px solid #F3B660;
 }
 
+.center {
+  text-align: center;
+}
+
 /* Containers */
 .container-fluid {
   padding: 1% 5%;
@@ -30,16 +34,18 @@ body {
 .image-fluid {
   margin-top: 5%;
   margin-left: 3%;
-  width: 75%;
 }
 
-.title-img-div {
-  padding-top: 7%;
-  padding-left: 15%;
+.profile {
+  margin: 8% 20%;
 }
 
 .mini {
   width: 25%;
+}
+
+.about {
+  margin: 3%;
 }
 
 /* Education */
@@ -60,6 +66,15 @@ h5 {
 h6 {
   color: gray;
   text-align: center;
+}
+
+.e-hover {
+  text-decoration: none;
+  color: black;
+}
+
+.e-hover:hover {
+  color: #ef8172;
 }
 
 /* Skills Section */
@@ -116,20 +131,42 @@ legend {
   padding: 0 18px;
   margin-bottom: 30px;
   margin-top: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+.f-icon:hover {
+  color: #ef8172;
 }
 
 /* Media Queries */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 350px) {
+  .profile{
+    padding-right: 10%;
 
-@media only screen and (min-width: 768px) {}
+  }
 
-@media only screen and (min-width: 992px) {}
 
-@media only screen and (min-width: 1200px) {}
+}
 
-/* <picture>
-  <source srcset="img_small.jpg" media="(max-width: 600px)">
-  <source srcset="img_medium.jpg" media="(max-width: 1500px)">
-  <source srcset="img_large.jpg">
-  <img src="img.jpg" alt="Image">
-</picture> */
+@media only screen and (max-width: 768px) {
+  .profile {
+    padding-left: 10%;
+    margin-top: 0%;
+    margin-bottom: 3%;
+  }
+
+  input {
+    width: 250px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .nav-item {
+    padding: 0 15px;
+  }
+  .profile{
+    padding-left: 1%;
+    padding-top: 15%;
+  }
+}
