@@ -10,20 +10,35 @@ body {
   text-align: center;
 }
 
+p{
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+}
+
 /* Containers */
 .container-fluid {
   padding: 1% 5%;
 }
 
+
+
 /* Sections */
-.top-page {
+.header {
   background-color: #753742;
 }
+
+
 
 /* Navigation Bar */
 .nav-item {
   padding: 0 18px;
 }
+
+.nav-link{
+  font-family: "Poppins", sans-serif;
+}
+
+
 
 /* About Me */
 .about-me {
@@ -48,6 +63,13 @@ body {
   margin: 3%;
 }
 
+.intro-para{
+  text-align: left;
+  margin-top: 15px;
+}
+
+
+
 /* Education */
 .border {
   margin: 10px;
@@ -58,6 +80,11 @@ body {
   margin-bottom: 10%;
 }
 
+h2{
+  font-family: "Poppins", sans-serif;
+}
+
+
 h5 {
   text-align: center;
   margin-top: 5%;
@@ -66,6 +93,7 @@ h5 {
 h6 {
   color: gray;
   text-align: center;
+  font-family: "Poppins", sans-serif;
 }
 
 .e-hover {
@@ -76,6 +104,8 @@ h6 {
 .e-hover:hover {
   color: #ef8172;
 }
+
+
 
 /* Skills Section */
 .color-section {
@@ -94,10 +124,16 @@ h6 {
   color: white;
 }
 
+
+
+
 /* My Work */
 .work-image {
   width: 50%;
 }
+
+
+
 
 /* Contact Me */
 .contact-me {
