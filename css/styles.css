@@ -25,6 +25,7 @@ p{
 /* Sections */
 .header {
   background-color: #753742;
+  background: white url(../images/tn.png)
 }
 
 
@@ -105,6 +106,10 @@ h6 {
   color: #ef8172;
 }
 
+.education-boxes{
+  display: flex;
+  justify-content: center;
+}
 
 
 /* Skills Section */
@@ -180,6 +185,8 @@ legend {
   .profile {
     padding-right: 10%;
   }
+
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -191,6 +198,10 @@ legend {
 
   input {
     width: 250px;
+  }
+
+  .education-boxes{
+    flex-direction: column;
   }
 }
 
